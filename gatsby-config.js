@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Gavin's Thoughts`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Erick Gavin`,
+      summary: `to record his thoughts while designing a better site.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `An in between starter blog for Erick before creating something more elaborate`,
+    siteUrl: `https://github.com/GAV07/gav_blog`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `erickgavin7`,
     },
   },
   plugins: [
@@ -121,7 +121,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
